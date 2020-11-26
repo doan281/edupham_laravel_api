@@ -1,0 +1,30 @@
+{
+    "name": "edupham/api",
+    "description": "Edupham RESTful API Package",
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "edupham",
+            "email": "edupham2019@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "classmap": [],
+        "psr-4": {
+            "Edupham\\Api\\": "src/"
+        },
+        "files": []
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Edupham\\Api\\App\\Providers\\AppServiceProvider",
+                "Edupham\\Api\\App\\Providers\\EventServiceProvider",
+                "Edupham\\Api\\App\\Providers\\RouteServiceProvider"
+            ]
+        }
+    }
+}
