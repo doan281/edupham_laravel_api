@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+        "tymon/jwt-auth": "dev-develop"
+    },
     "autoload": {
         "classmap": [],
         "psr-4": {
